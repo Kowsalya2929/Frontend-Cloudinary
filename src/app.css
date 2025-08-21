@@ -42,8 +42,15 @@
     display: block;
 }
 
-.form1:hover button{
+.form1:hover .img{
     display: block;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: blueviolet;
+    display: none;
 }
 
 input {
@@ -60,25 +67,9 @@ input {
     display: none;
 }
 .mouth:hover input{
-    background-color: brown;
+    background-color: rgb(26, 177, 237);
 }
 
-button{
-    background-color: blueviolet;
-    padding: 10px;
-    width: 70%;
-    outline: none;
-    margin: 0 auto;
-    border-radius: 20px;
-    cursor: pointer;
-    display: none;
-    color: white;
-    border: none;
-}
-
-.mouth:hover button{
-    background-color: brown;
-}
 .eye1{
     background-color: white;
     height: 50px;
@@ -135,4 +126,5 @@ button{
     margin: 0 auto;
     border-radius: 50%;
     gap: 5px;
+    align-items: center;
 }
